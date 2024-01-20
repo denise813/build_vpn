@@ -52,3 +52,4 @@ systemctl enable pptpd
 iptables -nL
 
 #route
+# ss -nutlp |grep pptpd
